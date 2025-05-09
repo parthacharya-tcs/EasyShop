@@ -13,6 +13,8 @@ import AllPopularProduct from "./components/pages/Home/AllPopularProduct.tsx";
 import Filter from "./components/pages/Home/Filter.tsx";
 import CategoryFilter from "./components/pages/Home/CategoryFilter.tsx";
 import Order from "./components/pages/Order/Order.tsx";
+import Cart from "./components/pages/Cart.tsx";
+import OrderDetail from "./components/pages/OrderDetail.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -28,6 +30,8 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/filter" element={<Filter />} />
         <Route path="/categoryFilter" element={<CategoryFilter />} />
         <Route path="/order" element={<Order />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/orderDetails" element={<OrderDetail />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

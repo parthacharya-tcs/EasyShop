@@ -7,6 +7,7 @@ import CategoryCard from "./components/atoms/card/CategoryCard";
 import CartCard from "./components/atoms/card/CartCard";
 import HeaderLink from "./components/atoms/text/HeaderLink";
 import OrderCard from "./components/atoms/card/OrderCard";
+import SummaryCard from "./components/atoms/card/SummaryCard";
 
 function App() {
   useEffect(() => {
@@ -64,6 +65,9 @@ function App() {
       </div>
       <div className="border border-amber-500 py-3">
         <OrderCard />
+      </div>
+      <div className="border border-amber-500 py-3">
+        <SummaryCard />
       </div>
     </div>
   );

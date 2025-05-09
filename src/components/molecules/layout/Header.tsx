@@ -1,4 +1,4 @@
-import { AiOutlineShopping } from "react-icons/ai";
+import CartBtn from "@/components/atoms/Button/CartBtn";
 import { CiHeart } from "react-icons/ci";
 import { IoLogoOctocat } from "react-icons/io5";
 import { Link } from "react-router";
@@ -25,7 +25,7 @@ const Header = () => {
         <Link to="/favProduct">
           <CiHeart size={32} />
         </Link>
-        <AiOutlineShopping size={32} />
+        <CartBtn />
       </div>
     </div>
   );
