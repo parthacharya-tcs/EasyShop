@@ -7,6 +7,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+easyshop_id_ed25519
+easyshop_id_ed25519.pub
+
 node_modules
 dist
 dist-ssr
